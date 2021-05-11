@@ -1,4 +1,7 @@
 import React from "react"
+import { Link } from "gatsby"
+import { About } from "gatsby"
+import Header from "../components/header"
 
 // export default function Home() {
 //   return <div>Hello world!</div>
@@ -7,7 +10,9 @@ import React from "react"
 export default function Home() {
   return (
     <div style={{ color: `gray`, fontSize: `48px`, textAlign: `center` }}>
-      <h1>Hello Gatsby!</h1>
+      <Link to="/contact/">Contact</Link>
+      <Link to="/about/">About</Link>
+      <Header headerText="Hello Gatsby!" />
       <p>What a world.</p>
       <img src="https://source.unsplash.com/random/400x200" alt="Use Your Imagination" />
       <div></div>
