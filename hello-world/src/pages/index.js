@@ -10,6 +10,7 @@ export default function Home() {
   return (
     <div style={{ color: `gray`, fontSize: `48px`, textAlign: `center` }}>
       <Link to="/contact/">Contact</Link>
+      <br/>
       <Link to="/about/">About</Link>
       <Header headerText="Hello Gatsby!" />
       <p>What a world.</p>
