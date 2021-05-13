@@ -8,7 +8,7 @@ import Header from "../components/header"
 
 export default function Home() {
   return (
-    <div style={{ color: `gray`, fontSize: `48px`, textAlign: `center` }}>
+    <div style={{ color: `gray`, fontSize: `24px`, textAlign: `center` }}>
       <Link to="/contact/">Contact</Link>
       <br/>
       <Link to="/about/">About</Link>
